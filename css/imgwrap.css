@@ -1,0 +1,113 @@
+.background-wrap {
+    position:relative
+}
+.background-wrap.border-plus-shadow {
+    border-radius:3px;
+    box-shadow:0 2px 5px rgba(0, 0, 0, 0.15)
+}
+.background-wrap > img {
+    max-width: 100%;
+}
+
+@media screen and (min-width:768px), screen and (min-device-width:768px) {
+    .no-display-border-widescreen {
+        border:0
+    }
+    .pos-wrap--zindex_1 {
+        z-index:1
+    }
+    .pos-wrap--absolute {
+        position:absolute;
+        margin:0 auto;
+        max-width: 100%;
+        height: 100%;
+    }
+    .pos-wrap--absolute > img{
+        max-width: 100%;
+        height: inherit;
+    }
+    .pos-wrap--left {
+        left:0
+    }
+    .pos-wrap--top {
+        top:0
+    }
+    .pos-wrap--right {
+        right:0
+    }
+    .pos-wrap--bottom {
+        bottom:0
+    }
+    .pos-wrap--top-medium {
+        top: 125px;
+    }
+    .pos-wrap--bottom-small {
+        bottom:40px
+    }
+    .pos-wrap--negative-left-xsmall {
+        left:-30px
+    }
+    .pos-wrap--negative-left-small {
+        left:-70px
+    }
+    .pos-wrap--negative-left-medium {
+        left:-125px
+    }
+    .pos-wrap--negative-left-large {
+        left:-250px
+    }
+    .pos-wrap--negative-top-xsmall {
+        top:-40px
+    }
+    .pos-wrap--negative-top-medium {
+        top:-125px
+    }
+    .pos-wrap--negative-top-large {
+        top:-250px
+    }
+    .pos-wrap--negative-right-small {
+        right:-70px
+    }
+    .pos-wrap--negative-right-medium {
+        right:-125px
+    }
+    .pos-wrap--negative-right-large {
+        right:-250px
+    }
+    .pos-wrap--negative-bottom-medium {
+        bottom:-125px
+    }
+    .pos-wrap--negative-bottom-large {
+        bottom:-200px
+    }
+}
+
+@media screen and (max-width:767px), screen and (max-device-width:767px) {
+    .no-display-767 {
+        display:none
+    }
+    .no-visible-767 {
+        visibility:hidden
+    }
+    .no-padding--767 {
+        padding:0
+    }
+    .center-elem--767 {
+        margin:0 auto
+    }
+    .auto-height--767 {
+        height:auto;
+        min-height:auto !important
+    }
+    .flex--wrap-column-center {
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        text-align:center
+    }
+    .density--xx-large {
+        padding-top:40px;
+        padding-bottom:40px
+    }
+}

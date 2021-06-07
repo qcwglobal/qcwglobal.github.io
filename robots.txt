@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+Disallow: /js/
+Disallow: /css/
+Disallow: /img/
+Disallow: /vendor/
+
+Sitemap: http://qcwglobal.cn/sitemap.xml
